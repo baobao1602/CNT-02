@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.thong-tin {
+
+}
+
+
+.thongTin-item {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.header-item {
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}

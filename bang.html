@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bang</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: red;
+            text-align: left;
+        }
+
+        table {
+            width: 80%;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        tr:nth-child(even){
+            background-color: antiquewhite;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        .id {
+            text-align: center;
+        }
+    </style>
+    <table>
+        <tr>
+            <th style="width: 5%; text-align: center;">ID</th>
+            <!-- <th>Name</th> -->
+            <th colspan="2">FullName</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td class="id">1</td>
+            <td>Nguyen</td>
+            <td>Bao</td>
+            <td>bao1602a@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td class="id">1</td>
+            <td>Nguyen</td>
+            <td>Bao</td>
+            <td>bao1602a@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td class="id">1</td>
+            <td>Nguyen</td>
+            <td>Bao</td>
+            <td>bao1602a@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td class="id">2</td>
+            <td>Nguyen</td>
+            <td>Hieu</td>
+            <td>Hieuhieu@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td class="id">3</td>
+            <td>Nguyen</td>
+            <td>Duy</td>
+            <td>Duy16171@gmail.com</td>
+        </tr>
+
+        <!-- tạo 1 hàng dưới 5 cột -->
+        <tr>
+            <td colspan="5">Văn bản minh họa</td>
+        </tr>
+    </table>
+</body>
+</html>
